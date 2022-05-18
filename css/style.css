@@ -32,6 +32,10 @@ a {
     list-style: none;
 }
 
+#latest-posts {
+    margin: 20px 0;
+}
+
 .date-label {
     background: #c63131;
     color: #ffffff;
@@ -40,5 +44,5 @@ a {
 
 .new {
     color: #c63131;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
