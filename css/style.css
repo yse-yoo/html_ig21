@@ -27,5 +27,11 @@ a {
 }
 
 #top ul {
+    /* list-style: disc; */
+    /* list-style: circle; */
     list-style: none;
+}
+
+.date-label {
+    background: #c63131;
 }
