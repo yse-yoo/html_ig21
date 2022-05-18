@@ -30,6 +30,7 @@ a {
     /* list-style: disc; */
     /* list-style: circle; */
     list-style: none;
+    padding: 0;
 }
 
 #latest-posts {
