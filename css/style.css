@@ -34,4 +34,11 @@ a {
 
 .date-label {
     background: #c63131;
+    color: #ffffff;
+    font-size: 0.5rem;
+}
+
+.new {
+    color: #c63131;
+    font-size: 0.5rem;
 }
