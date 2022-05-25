@@ -55,6 +55,10 @@ a:hover {
     color: #ffffff; */
 }
 
+a:active {
+    color: black;
+}
+
 #top {}
 
 #top ul {
