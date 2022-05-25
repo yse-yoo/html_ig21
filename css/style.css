@@ -36,13 +36,23 @@ h2 {
 }
 
 h2::before {
-    content: "●";
+    content: "♠";
     margin-right: 8px;
 }
 
 a {
     color: #0084ff;
     text-decoration: none;
+    padding: 5px;
+}
+
+/* マウスオーバーしたら */
+a:hover {
+    color: #a52a2a;
+    text-decoration: underline;
+
+    /* background-color: #a52a2a;
+    color: #ffffff; */
 }
 
 #top {}
