@@ -35,6 +35,11 @@ h2 {
     border-radius: 10px;
 }
 
+h2::before {
+    content: "●";
+    margin-right: 8px;
+}
+
 a {
     color: #0084ff;
     text-decoration: none;
