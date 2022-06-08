@@ -81,17 +81,25 @@ a:active {
     padding: 0;
 }
 
-#latest-posts {
-    margin: 20px 0;
-}
-
 .date-label {
     background: #c63131;
     color: #ffffff;
     font-size: 0.5rem;
+    padding: 5px;
+    margin-right: 10px;
 }
 
 .new {
     color: #c63131;
     font-size: 0.7rem;
+}
+
+#latest-posts {
+    margin: 20px 0;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
