@@ -9,3 +9,10 @@
 #banner img {
     width: 100%;
 }
+
+footer {
+    padding: 20px;
+    text-align: right;
+    background-color: #303030;
+    color: white
+}
