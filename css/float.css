@@ -1,9 +1,10 @@
 .box {
     height: 100px;
     width: 200px;
+    float: left;
 }
 .color1 {
-    background-color: #69b29a;
+    background-color: rgb(105, 178, 154);
 }
 .color2 {
     background-color: #a88539;
