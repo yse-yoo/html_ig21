@@ -118,3 +118,7 @@ nav li {
     /* float: left; */
     padding: 10px;
 }
+
+.active {
+    border-bottom: 3px solid #336bee;
+}
