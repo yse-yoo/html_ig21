@@ -1,0 +1,15 @@
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    padding: 0 10px;
+}
+
+a {
+    color: #0084ff;
+    text-decoration: none;
+}
