@@ -105,16 +105,16 @@ a:active {
 }
 
 header {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 nav ul {
    list-style: none; 
    padding: 0;
+   display: flex;
 }
 
 nav li {
-    float: left;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    /* float: left; */
+    padding: 10px;
 }
