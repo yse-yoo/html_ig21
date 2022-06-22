@@ -51,11 +51,16 @@
     <div>
       <select name="prefucture_id" id="">
         <option value="12">千葉県</option>
-        <option value="13">東京都</option>
+        <option value="13" selected>東京都</option>
         <option value="14">神奈川県</option>
       </select>
     </div>
 
+    <div>
+      <!-- 複数行の文章 -->
+      <label for="">メモ</label>
+      <textarea name="memo" id="" cols="60" rows="5"></textarea>
+    </div>
 
     <!-- ユーザにはみせないが、サーバにデータを送信 -->
     <input type="hidden" name="user_id" value="10">
