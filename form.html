@@ -44,9 +44,13 @@
 
     <div>
       <label for="">アップロード画像</label>
-      <input type="file" name="upload_image" value="">
+      <input type="file" name="upload_image" value="" multiple>
     </div>
 
+    <!-- ユーザにはみせないが、サーバにデータを送信 -->
+    <input type="hidden" name="user_id" value="10">
+
+    <input type="submit" value="更新">
   </form>
 
 </body>
