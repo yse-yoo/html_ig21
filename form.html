@@ -7,7 +7,7 @@
   <title>Document</title>
 </head>
 <body>
-  
+
   <!-- formタグの中に送信したいHTMLタグを記述 -->
   <form action="" method="get">
     <div>
@@ -57,9 +57,26 @@
     </div>
 
     <div>
+      <select name="birthday_year" id="">
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+      </select>
+      年
+    </div>
+
+    <div>
       <!-- 複数行の文章 -->
       <label for="">メモ</label>
       <textarea name="memo" id="" cols="60" rows="5"></textarea>
+    </div>
+
+    <div>
+      <input type="date" name="" id="">
+      <input type="color" name="" id="">
+      <input type="number" name="" id="">
+      <input type="url" name="" id="">
+      <input type="email" name="" id="">
     </div>
 
     <!-- ユーザにはみせないが、サーバにデータを送信 -->
