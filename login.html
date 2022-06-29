@@ -11,21 +11,23 @@
 
   <main class="container">
     <form action="" method="post">
-      <div>
-        <label for="">Email</label>
+      <div class="mt-2 form-floating">
         <input 
-          class="form-control border-0  border-bottom rounded-0" 
+          class="form-control border-0 border-bottom rounded-0" 
           type="text" 
           name="email" 
-          placeholder="test@yse.com" value="test@test.com">
+          placeholder="test@yse.com" value="">
+        <label for="">Email</label>
       </div>
-      <div>
-        <label for="">パスワード</label>
+
+      <div class="mt-2 form-floating">
         <input 
-          class="form-control" 
+          class="form-control border-0 border-bottom rounded-0" 
           type="password" name="password" 
           placeholder="4文字以上の英数字">
+        <label for="">パスワード</label>
       </div>
+
       <div class="mt-2 d-grid">
         <button class="btn btn-danger">ログイン</button>
       </div>
