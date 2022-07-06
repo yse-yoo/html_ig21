@@ -18,14 +18,17 @@
     <form action="" method="post">
 
       <div class="row mb-3">
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-6 mb-3">
           <label class="form-label" for="">氏名</label>
-          <input class="form-control" type="text" name="name">
+          <!-- span.text-danger -->
+          <span class="text-danger">*</span>
+          <input class="form-control" type="text" name="name" required>
         </div>
 
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-6 mb-3">
           <label class="form-label" for="">Email</label>
-          <input class="form-control" type="text" name="email">
+          <span class="text-danger">*</span>
+          <input class="form-control" type="email" name="email" required>
         </div>
       </div>
 
