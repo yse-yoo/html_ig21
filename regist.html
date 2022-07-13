@@ -44,19 +44,35 @@
         </div>
 
         <div class="form-group col-md-3 mb-3">
-          <label class="form-label" for="inputPassword">郵便番号</label>
+          <label class="form-label" for="inputZip">郵便番号</label>
           <span class="text-danger">*</span>
           <input id="inputZip" class="form-control" type="text" name="zip" required>
         </div>
 
         <div class="form-group col-md-3 mb-3">
-          <label class="form-label" for="inputPassword">都道府県</label>
+          <label class="form-label" for="inputPrefecture">都道府県</label>
           <span class="text-danger">*</span>
-          <select name="prefecture" id="" class="form-control">
+          <select name="prefecture" id="inputPrefecture" class="form-control">
             <option value="12">千葉県</option>
             <option value="13">東京都</option>
             <option value="14">神奈川県</option>
           </select>
+        </div>
+
+      </div>
+
+      <div class="row mb-3">
+
+        <div class="form-group col-md-6 mb-3">
+          <label class="form-label" for="inputCity">市区町村</label>
+          <span class="text-danger">*</span>
+          <input id="inputCity" class="form-control" type="text" name="city" required>
+        </div>
+
+        <div class="form-group col-md-6 mb-3">
+          <label class="form-label" for="inputAddress">町名番地</label>
+          <span class="text-danger">*</span>
+          <input id="inputAddress" class="form-control" type="text" name="address" required>
         </div>
 
       </div>
