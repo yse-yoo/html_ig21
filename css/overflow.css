@@ -10,3 +10,14 @@
     /* overflow: scroll; */
     overflow: auto;
 }
+
+.banner {
+    margin-top: 100px;
+    width: 500px;
+    height: 200px;
+    border: 10px solid black;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
